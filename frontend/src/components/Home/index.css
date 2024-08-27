@@ -1,0 +1,33 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .side-home-nav{
+     width: 6%;
+  
+  }
+  .home-content-container{
+      width: 94%;
+      background-color: rgb(176, 210, 211);
+      padding: 15px;
+      height: 120vh;
+     
+      border-top-left-radius: 15px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .home-content-container{
+      width: 100%;
+      background-color: rgb(176, 210, 211);
+      padding: 15px;
+      height: 100%;
+     
+      border-top-left-radius: 0px;
+  }
+  .blog-items-list{
+    padding: 0;
+  }
+  }

@@ -1,0 +1,88 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0px 20px;
+    overflow: hidden;
+}
+.link{
+    text-decoration: none;
+}
+
+.list-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.item{
+    padding-left: 15px;
+}
+
+.login-btn{
+    padding: 4px;
+    font-size: 14px;
+    width: 80px;
+    border-radius: 30px;
+    border: 1px solid rgb(6, 6, 177);
+    outline: none;
+    background-color: transparent;
+    letter-spacing: 1px;
+    color: rgb(6, 6, 177);
+    cursor: pointer;
+}
+
+
+.join-btn{
+    padding: 4px;
+    font-size: 14px;
+    width: 90px;
+    border-radius: 30px;
+    border: 1px solid rgb(6, 6, 177);
+    outline: none;
+    background-color: rgb(6, 6, 177);
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.login-btn:hover{
+    background-color: rgb(6, 6, 177);
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.join-btn:hover{
+    background-color: #fff;
+    color: rgb(6, 6, 177);
+    transition: ease-in-out 0.3s;
+}
+
+.menu{
+   display: none;
+}
+
+@media screen and (max-width: 900px){
+    .list-items{
+        display: none;
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .menu{
+        display: block;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: rgb(6, 6, 177);
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+}

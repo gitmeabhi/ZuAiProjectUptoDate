@@ -1,0 +1,28 @@
+
+.home-content-container1{
+    display: flex;
+   
+    justify-content: center;
+    align-items: flex-start;
+    width: 94%;
+    background-color: rgb(176, 210, 211);
+    padding: 15px;
+    height: 120vh;
+    padding-top: 50px;
+   
+    border-top-left-radius: 15px;
+}
+
+#addPostForm1{
+    background-color: #fff;
+  
+}
+
+.desc-input, .input-element{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#update-scc{
+    display: none;
+}

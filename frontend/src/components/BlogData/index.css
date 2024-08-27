@@ -1,0 +1,150 @@
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.blog-items-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 30px;
+
+}
+
+.blog-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(10, 118, 126);
+    width: 300px;
+    height: 150px;
+    max-width: 100%;
+    margin: 15px;
+}
+
+
+
+.blog-item:hover{
+    box-shadow: 0px 0px 6px 1px ;
+    transition: ease-in-out 0.3s;
+    background-color: rgb(244, 247, 247);
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 91%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.add-post-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91%;
+    max-width:100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+  
+   height: 30px;
+}
+.add-text{
+    font-size: 25px;
+    color: rgb(6, 6, 177);
+}
+.add-post-btn{
+    border: 1px solid rgb(6, 6, 177);;
+    outline: none;
+    padding: 6px;
+    width: 100px;
+    color: rgb(6, 6, 177);
+    background-color: transparent;
+    border-radius: 5px;
+}
+.add-post-btn:hover{
+    background-color: rgb(6, 6, 177);
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 25px 15px 15px;
+    margin: 20px 0px;
+    border: 1px solid rgb(6, 6, 177);
+    border-radius: 5px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.post-label{
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+.input-element{
+    width: 100%;
+    border: 1px solid rgb(6, 6, 177);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(6, 6, 177);
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.desc-input{
+    width: 100%;
+    border: 1px solid rgb(6, 6, 177);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(6, 6, 177);
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.save-btn{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(6, 6, 177);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#addPostForm{
+    display: none;
+}
+
+
+
+@media screen  and (max-width: 900px) {
+    .blog-item{
+        width: 270px;
+        max-width: 100%;
+    }
+}

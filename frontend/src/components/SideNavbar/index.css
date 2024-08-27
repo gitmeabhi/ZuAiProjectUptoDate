@@ -1,0 +1,50 @@
+
+.side-nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 6px;
+   
+}
+.link1{
+    text-decoration: none;
+    color: rgb(6, 6, 177);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+.side-list-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.side-item{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+nav a.active{
+    background-color: rgb(6, 6, 177);
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.side-item:hover{
+    background-color: rgb(150, 104, 194);
+    border-radius: 5px;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
